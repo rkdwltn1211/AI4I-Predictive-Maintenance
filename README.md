@@ -79,14 +79,14 @@
 
 ## 🛠️ 기술 스택
 
-\```
+
 Python 3.x
 ├── 데이터 분석: pandas, numpy
 ├── 시각화: plotly, matplotlib, seaborn
 ├── 머신러닝: scikit-learn, lightgbm, xgboost
 ├── 모델 설명: shap
 └── 대시보드: streamlit
-\```
+
 
 ---
 
