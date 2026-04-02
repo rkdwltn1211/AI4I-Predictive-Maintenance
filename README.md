@@ -109,8 +109,13 @@ Python 3.x
 ## ⚙️ 로컬 실행 방법
 
 ```bash
+# 1. 레포지토리 클론
 git clone https://github.com/your-username/AI4I-Predictive-Maintenance.git
 cd AI4I-Predictive-Maintenance
+
+# 2. 패키지 설치
 pip install -r requirements.txt
+
+# 3. 대시보드 실행
 streamlit run app.py
 ```
