@@ -92,7 +92,7 @@ Python 3.x
 
 ## 📁 프로젝트 구조
 
-\```
+```
 📦 AI4I-Predictive-Maintenance
  ┣ 📓 01_EDA.ipynb
  ┣ 📓 02_modeling.ipynb
@@ -102,15 +102,15 @@ Python 3.x
  ┣ 📄 README.md
  ┗ 📂 data/
     ┗ ai4i2020.csv
-\```
+```
 
 ---
 
 ## ⚙️ 로컬 실행 방법
 
-\```bash
+```bash
 git clone https://github.com/your-username/AI4I-Predictive-Maintenance.git
 cd AI4I-Predictive-Maintenance
 pip install -r requirements.txt
 streamlit run app.py
-\```
+```
