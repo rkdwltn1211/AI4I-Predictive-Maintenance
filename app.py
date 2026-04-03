@@ -106,7 +106,7 @@ COLOR_SEQ     = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
 # ── 데이터 로드 ────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv('ai4i2020.csv')
+    df = pd.read_csv('data/ai4i2020.csv')
     df.columns = df.columns.str.strip()
     df['Temp_diff']    = df['Process temperature [K]'] - df['Air temperature [K]']
     df['Power']        = df['Torque [Nm]'] * df['Rotational speed [rpm]'] * (2 * np.pi / 60)
